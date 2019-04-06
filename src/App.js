@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import BitlyBar from './components/Navbar'
+import BitlyBar from './components/BitlyBar'
 
 class App extends Component {
   

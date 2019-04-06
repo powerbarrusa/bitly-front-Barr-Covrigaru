@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
+import Logo from '../images/logo.svg'
 
 const BitlyBar = (props) => {
 
