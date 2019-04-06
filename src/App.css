@@ -27,4 +27,11 @@ body {
   color: white !important;
   font-weight: bold !important;
   font-size: 13px !important;
+  margin-left: 25px;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 50px;
+  margin-right: 25px;
 }

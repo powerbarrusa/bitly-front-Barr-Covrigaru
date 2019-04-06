@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, Image } from 'react-bootstrap'
 import Logo from '../images/logo.svg'
 
 const BitlyBar = (props) => {
@@ -7,7 +7,7 @@ const BitlyBar = (props) => {
   return (
   <div className="App">
     <Navbar expand="lg">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Image className="logo" src={Logo} />
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
