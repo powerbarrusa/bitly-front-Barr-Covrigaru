@@ -42,6 +42,7 @@ body {
 
 .inputfield {
   font-family: Helvetica;
+  height: 60px;
 }
 
 .button {
@@ -50,4 +51,5 @@ body {
   color: white;
   font-weight: bold;
   font-size: 11px;
+  width: 125px;
 }
