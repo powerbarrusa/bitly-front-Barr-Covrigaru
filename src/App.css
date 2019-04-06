@@ -36,9 +36,18 @@ body {
   margin-right: 25px;
 }
 
-.input_button {
-  font-family: Helvetica !important;
-  margin-top: 50px !important;
-  width: 65% !important;
-  
+.inputgroup {
+  margin-top: 50px;
+}
+
+.inputfield {
+  font-family: Helvetica;
+}
+
+.button {
+  font-family: Helvetica;
+  background-color: #ee6123;
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
 }

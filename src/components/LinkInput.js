@@ -5,14 +5,15 @@ const LinkInput = (props) => {
 
   return (
   <div className="App">
-    <InputGroup className="mb-3 input_button">
+    <InputGroup className="mb-3 inputgroup">
       <FormControl
+        className="inputfield"
         placeholder="Paste a link to shorten it"
-        aria-label="Recipient's username"
-        aria-describedby="basic-addon2"
+        aria-label="Paste a link to shorten it"
+        aria-describedby="link-shortener"
       />
       <InputGroup.Append>
-        <Button variant="outline-secondary">Button</Button>
+        <Button className="button" variant="outline-secondary">SHORTEN</Button>
       </InputGroup.Append>
     </InputGroup>
   </div>
