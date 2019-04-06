@@ -3,6 +3,15 @@ import './App.css'
 import BitlyBar from './components/Navbar'
 
 class App extends Component {
+  
+  constructor(){
+    super()
+    this.state = {
+    }
+  }
+
+
+
   render() {
     return (
       <div className="App">

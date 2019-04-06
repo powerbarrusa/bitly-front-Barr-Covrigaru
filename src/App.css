@@ -18,5 +18,13 @@ body {
 
 .motto {
   color: white;
+  font-family: Helvetica;
   font-size: 18px;
+}
+
+.nav-link {
+  font-family: Helvetica !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 13px !important;
 }
